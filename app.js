@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json()); // Parse JSON
 
 // Connect to MongoDB Atlas
-mongoose.connect(process.env.uri)
+mongoose.connect(process.env.MongoDBconnStr)
   .then(() => console.log('MongoDB connected!'))
   .catch(err => console.error('MongoDB connection failed:', err.message));
 

@@ -1,1 +1,13 @@
-.env 
+# Dependency directories
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Optional: OS or IDE files
+
