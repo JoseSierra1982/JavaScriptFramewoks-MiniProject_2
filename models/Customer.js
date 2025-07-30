@@ -1,5 +1,7 @@
-import mongoose from 'mongoose';
+//Step 2: Model Setup (Customer.js)
 
+import mongoose from 'mongoose';
+  
 const customerSchema = new mongoose.Schema({
 name: {
     type: String,      

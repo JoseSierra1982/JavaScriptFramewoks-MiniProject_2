@@ -1,3 +1,6 @@
+//Step 3: Read Operation (readCustomer.js)
+//Step 4: Setting up Express Routes in app.js
+
 import express from 'express';
 import Customer from '../models/Customer.js';
 
