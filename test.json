@@ -1,0 +1,28 @@
+{
+  "name": "Alice Johnson",
+  "id": "CUST1001",
+  "accountType": "Savings",
+  "balance": 1200.50,
+  "isActive": true
+}
+{
+  "name": "Bob Smith",
+  "id": "CUST1002",
+  "accountType": "Checking",
+  "balance": 800.75,
+  "isActive": false
+}
+{
+  "name": "Charlie Brown",
+  "id": "CUST1003",
+  "accountType": "Savings",
+  "balance": 1500.00,
+  "isActive": true
+}
+{
+  "name": "Diana Prince",
+  "id": "CUST1004",
+  "accountType": "Checking",
+  "balance": 950.25,
+  "isActive": true
+}

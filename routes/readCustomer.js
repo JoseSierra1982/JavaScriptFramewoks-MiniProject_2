@@ -26,7 +26,7 @@ router.get('/Read', async (req, res) => {
     res.json(customers);
 
   } catch (error) {
-    console.error(' Error reading customer(s):', error.message);
+    console.error('Error reading customer(s):', error.message);
     res.status(500).json({ message: error.message });
   }
 });
